@@ -1,5 +1,6 @@
 ---
 versionFrom: 9.0.0
+versionTo: 10.0.0
 ---
 
 # Block List
@@ -244,7 +245,7 @@ Example:
     foreach (var variant in variants)
     {
         <h4>@variant.VariantName</h4>
-        <p>@variant.Description</h4>
+        <p>@variant.Description</p>
     }
 }
 ```
