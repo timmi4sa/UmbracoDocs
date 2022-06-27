@@ -60,8 +60,9 @@ The final piece to the puzzle is adding the partial view that will be rendered w
     ```html
     <meta property="og:image" content="@ogImage.Url(mode: UrlMode.Absolute)" />
     ```
+13. Name the partial view "OpenGraph" in the top-most text field,
 
-13. Your partial view is now complete and should only render on pages that are using the Open Graph composition.
+14. Your partial view is now complete and should only render on pages that are using the Open Graph composition.
 
 The final view should look like this:
 
